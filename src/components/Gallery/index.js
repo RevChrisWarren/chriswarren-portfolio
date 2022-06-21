@@ -1,22 +1,19 @@
 import React from 'react';
-import photo from "../../assets/Projects/BankingPWA.png"
+import { capitalizeFirstLetter } from '../../utils/helpers';
+import Portfolio from '../Portfolio';
 
-function Gallery(props) {
-    const currentProject = {
-        name: "projects",
-        description: "screenshots of projects by developer Chris Warren"
-    }
+
+function Gallery({ currentCategory }) {
+    const { name, description } = currentCategory;
+
+
     return (
         <section>
-            <h1>{currentProject.name}</h1>
-            <p>{currentProject.name}</p>
-            <div>
-                <img
-                    src={photo}
-                    alt="Project Example"
-                    className="img-thumbnail mx-1"
-                />
-            </div>
+            <h1>{capitalizeFirstLetter(name)}</h1>
+            <p>{description}</p>
+            <Portfolio category={currentCategory.name} />
+
+
         </section>
     )
 }

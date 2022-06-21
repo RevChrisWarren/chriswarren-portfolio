@@ -248,8 +248,8 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 45%;
+  height: auto;
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -307,8 +307,4 @@ a {
 }
 .avatar {
   width: 10%
-}
-
-.avatar {
-  
 }
