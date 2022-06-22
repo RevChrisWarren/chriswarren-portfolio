@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/chriswarren-portfolio/static/css/main.2a7ee7f9.css",
+    "main.js": "/chriswarren-portfolio/static/js/main.09fd6fa8.js",
+    "static/js/787.7ad79db5.chunk.js": "/chriswarren-portfolio/static/js/787.7ad79db5.chunk.js",
+    "static/media/Natpark.jpeg": "/chriswarren-portfolio/static/media/Natpark.9558d1ed64fe58ca230a.jpeg",
+    "static/media/chrispic.jpeg": "/chriswarren-portfolio/static/media/chrispic.f04e40bda0044e375aed.jpeg",
+    "static/media/scheduler.jpeg": "/chriswarren-portfolio/static/media/scheduler.ecf31c7245a6ddec6a5b.jpeg",
+    "static/media/BankingPWA.jpeg": "/chriswarren-portfolio/static/media/BankingPWA.ce13a0e79b386e1560d9.jpeg",
+    "static/media/WeatherApp.jpeg": "/chriswarren-portfolio/static/media/WeatherApp.5520434657783997f259.jpeg",
+    "static/media/Lingo.jpeg": "/chriswarren-portfolio/static/media/Lingo.5ebf77b60929245e6894.jpeg",
+    "static/media/Password.jpeg": "/chriswarren-portfolio/static/media/Password.cb7f6b590e23bf0972b4.jpeg",
+    "static/media/ChrisWarrenResume.pdf": "/chriswarren-portfolio/static/media/ChrisWarrenResume.4c3e9c24e5a5407326da.pdf",
+    "static/media/cwavatar.jpeg": "/chriswarren-portfolio/static/media/cwavatar.aa4333fcb926e70efd31.jpeg",
+    "index.html": "/chriswarren-portfolio/index.html",
+    "main.2a7ee7f9.css.map": "/chriswarren-portfolio/static/css/main.2a7ee7f9.css.map",
+    "main.09fd6fa8.js.map": "/chriswarren-portfolio/static/js/main.09fd6fa8.js.map",
+    "787.7ad79db5.chunk.js.map": "/chriswarren-portfolio/static/js/787.7ad79db5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7ee7f9.css",
+    "static/js/main.09fd6fa8.js"
+  ]
+}
