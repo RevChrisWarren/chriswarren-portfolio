@@ -311,3 +311,15 @@ a {
 .avatar {
   width: 10%
 }
+.footer {
+  margin-top: 1rem;
+  padding: 20px;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.links {
+  padding: 20px
+}
