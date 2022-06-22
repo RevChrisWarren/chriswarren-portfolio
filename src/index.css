@@ -323,3 +323,7 @@ a {
 .links {
   padding: 20px
 }
+.headshot {
+  width: 30%;
+  justify-content: auto
+}

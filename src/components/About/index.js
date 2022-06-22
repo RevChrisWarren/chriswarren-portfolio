@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from "../../assets/computerbackground.jpg"
+import coverImage from "../../assets/chrispic.jpeg"
 
 
 function About() {
@@ -13,7 +13,7 @@ function About() {
                 I've always loved computers and dabbling. I decided to make a change and am working toward a career as a
                 developer.
             </h4>
-            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+            <img src={coverImage} className="my-2 headshot" alt="cover" />
 
         </section>
     );
