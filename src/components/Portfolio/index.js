@@ -3,7 +3,7 @@ import bankingpwa from "../../assets/projects/portfolio/BankingPWA.jpeg";
 import lingo from "../../assets/projects/portfolio/Lingo.jpeg"
 import natpark from "../../assets/projects/portfolio/Natpark.jpeg"
 import password from "../../assets/projects/portfolio/Password.jpeg"
-import scheduler from "../../assets/projects/portfolio/scheduler.jpg"
+import scheduler from "../../assets/projects/portfolio/scheduler.jpeg"
 import weather from "../../assets/projects/portfolio/WeatherApp.jpeg"
 
 

@@ -206,6 +206,9 @@ textarea {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
+.mx-2:hover {
+  color:rgb(228, 46, 1)
+}
 
 .my-1 {
   margin-top: var(--spacing-one);
