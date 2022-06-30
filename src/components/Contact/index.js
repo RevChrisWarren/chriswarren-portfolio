@@ -26,6 +26,13 @@ function ContactForm() {
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value })
         }
+        if (e.target.name === 'name') {
+            if (!e.target.value.length) {
+                setErrorMessage('Name is missing')
+            } else {
+                setErrorMessage('');
+            }
+        }
     }
     function handleSubmit(e) {
         e.preventDefault();

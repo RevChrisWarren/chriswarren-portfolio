@@ -1,16 +1,8 @@
 import React from 'react';
 import cwAvatar from "../../assets/cwavatar.jpeg"
-import { capitalizeFirstLetter } from "../../utils/helpers"
 
-function Nav(props) {
-    const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
-    } = props;
 
+function Nav({ currentPage, handlePageChange }) {
 
     return (
         <header>
@@ -22,35 +14,44 @@ function Nav(props) {
                 </a>
             </h2>
             <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about" onClick={() => setContactSelected(false)}>
+                <ul className="nav nav-tabs">
+                    <li className="nav-item">
+                        <a
+                            href="#about"
+                            onClick={() => handlePageChange('About')}
+                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        >
                             About Me</a>
                     </li>
-                    <li className="mx-2">
-                        <a href="#resume" onClick={() => setContactSelected(false)}>
+                    <li className="nav-item">
+                        <a
+                            href="#Gallery"
+                            onClick={() => handlePageChange('Portfolio')}
+                            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Portfolio</a>
+                    </li>
+                    <li className="nav-item">
+                        <a
+                            href="#Resume"
+                            onClick={() => handlePageChange('Resume')}
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        >
                             Resume</a>
                     </li>
-
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <li className="nav-item">
+                        <a
+                            href="#Contact"
+                            onClick={() => handlePageChange('ContactForm')}
+                            className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Contact</a>
                     </li>
 
-                    {categories.map((category) => (
-                        <li className={`mx-1 ${currentCategory.name === category.name && !contactSelected && 'navActive'}`} key={category.name}>
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category)
-                                    setContactSelected(false);
-                                }}
-                            >
-                                {capitalizeFirstLetter(category.name)}
-                            </span>
-                        </li>
-                    ))}
+
                 </ul>
-            </nav>
-        </header>
+            </nav >
+        </header >
     )
 }
 
