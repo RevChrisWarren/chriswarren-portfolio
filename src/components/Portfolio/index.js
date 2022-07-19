@@ -5,9 +5,16 @@ import PortfolioCard from "../PortfolioCard";
 const Portfolio = () => {
     const portfolioContents = [
         {
+            image: "/portfolio/Raymond.jpeg",
+            title: "Raging Raymond Fluke Tournament",
+            desc: "A site for a fishing tournament to fight the VAMP2 disorder",
+            github: "https://github.com/swazunga/raging-raymond-project",
+            url: "add heroku url here"
+        },
+        {
             image: "/portfolio/Lingo.jpeg",
             title: 'Lingo',
-            desc: 'An app to create flashcards in order to help learn another language.',
+            desc: 'An app to create flashcards in order to help learn another language',
             github: 'https://github.com/RevChrisWarren/language-app',
             url: "https://mysterious-inlet-45382.herokuapp.com/"
         },
