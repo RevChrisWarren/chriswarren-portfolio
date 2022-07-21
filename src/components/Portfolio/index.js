@@ -9,7 +9,7 @@ const Portfolio = () => {
             title: "Raging Raymond Fluke Tournament",
             desc: "A site for a fishing tournament to fight the VAMP2 disorder",
             github: "https://github.com/swazunga/raging-raymond-project",
-            url: "add heroku url here"
+            url: "https://raging-raymond.herokuapp.com/"
         },
         {
             image: "/portfolio/Lingo.jpeg",
