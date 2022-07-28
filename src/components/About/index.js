@@ -10,7 +10,7 @@ function About() {
                 voice from Vanderbilt University and a master's degree in voice from the University of Michigan.
                 I served several churches as music director, and was called to the ministry. I completed a Master of
                 Divinity degree from Vanderbilt University, and have been serving as a full-time minister for 14 years.
-                I've always loved computers and dabbling. I decided to make a change and am working toward a career as a
+                I've always loved computers and dabbling. I decided to make a change and am ready to begin a career as a
                 developer.
             </h4>
             <img src={coverImage} className="my-2 headshot" alt="cover" />

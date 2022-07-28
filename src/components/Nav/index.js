@@ -39,14 +39,14 @@ function Nav({ currentPage, handlePageChange }) {
                         >
                             Resume</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a
                             href="#Contact"
                             onClick={() => handlePageChange('ContactForm')}
                             className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
                         >
                             Contact</a>
-                    </li>
+                    </li> */}
 
 
                 </ul>

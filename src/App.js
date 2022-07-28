@@ -14,9 +14,9 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'ContactForm') {
-      return <ContactForm />;
-    }
+    // if (currentPage === 'ContactForm') {
+    //   return <ContactForm />;
+    // }
     if (currentPage === 'Resume') {
       return <Resume />;
     }
