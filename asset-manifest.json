@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/chriswarren-portfolio/static/css/main.30d027a8.css",
-    "main.js": "/chriswarren-portfolio/static/js/main.1c8a9ccf.js",
+    "main.js": "/chriswarren-portfolio/static/js/main.2f875f0b.js",
     "static/js/787.7ad79db5.chunk.js": "/chriswarren-portfolio/static/js/787.7ad79db5.chunk.js",
     "static/media/chrispic.jpeg": "/chriswarren-portfolio/static/media/chrispic.f04e40bda0044e375aed.jpeg",
     "static/media/ChrisWarrenResume.pdf": "/chriswarren-portfolio/static/media/ChrisWarrenResume.4c3e9c24e5a5407326da.pdf",
     "static/media/cwavatar.jpeg": "/chriswarren-portfolio/static/media/cwavatar.aa4333fcb926e70efd31.jpeg",
     "index.html": "/chriswarren-portfolio/index.html",
     "main.30d027a8.css.map": "/chriswarren-portfolio/static/css/main.30d027a8.css.map",
-    "main.1c8a9ccf.js.map": "/chriswarren-portfolio/static/js/main.1c8a9ccf.js.map",
+    "main.2f875f0b.js.map": "/chriswarren-portfolio/static/js/main.2f875f0b.js.map",
     "787.7ad79db5.chunk.js.map": "/chriswarren-portfolio/static/js/787.7ad79db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30d027a8.css",
-    "static/js/main.1c8a9ccf.js"
+    "static/js/main.2f875f0b.js"
   ]
 }
