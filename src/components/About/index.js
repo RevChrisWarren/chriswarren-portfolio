@@ -15,6 +15,7 @@ function About() {
             </h4>
             <img src={coverImage} className="my-2 headshot" alt="cover" />
 
+
         </section>
     );
 }

@@ -13,6 +13,7 @@ function Nav({ currentPage, handlePageChange }) {
                     </span> Chris Warren Portfolio
                 </a>
             </h2>
+            <a href="mailto:chriswarren37129@gmail.com">Email Chris</a>
             <nav>
                 <ul className="nav nav-tabs">
                     <li className="nav-item">
