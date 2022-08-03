@@ -44,7 +44,7 @@ const Portfolio = () => {
         {
             image: "/portfolio/scheduler.jpeg",
             title: 'Day scheduler',
-            desc: 'An app to keep track of dailty tasks.',
+            desc: 'An app to keep track of daily tasks.',
             github: 'https://github.com/RevChrisWarren/DayScheduler',
             url: "https://revchriswarren.github.io/DayScheduler/"
 
